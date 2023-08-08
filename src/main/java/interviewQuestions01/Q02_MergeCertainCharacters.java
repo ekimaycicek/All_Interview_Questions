@@ -21,7 +21,7 @@ public class Q02_MergeCertainCharacters {
         String mtn = scan.nextLine();
 
         System.out.println("Bir sayı giriniz:");
-        int sayi = Math.abs(scan.nextInt());
+        int sayi = scan.nextInt();
 
         String sonuc = ilkSonHarf(mtn, sayi);
         System.out.println("Sonuç: " + sonuc);
