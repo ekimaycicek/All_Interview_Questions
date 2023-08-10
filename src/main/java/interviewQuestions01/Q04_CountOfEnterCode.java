@@ -9,6 +9,7 @@ import java.util.Scanner;
     **sout mesajını ver
     **variable olustur
     **if blogunda
+
  */
 public class Q04_CountOfEnterCode {
 
