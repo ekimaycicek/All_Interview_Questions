@@ -10,7 +10,7 @@ public class Task01 {
  */
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
         System.out.println("Sayi giriniz");
         int sayi = Math.abs(scan.nextInt());
         int sum =0;
@@ -26,5 +26,30 @@ public class Task01 {
         }else {
             System.out.println("Armstrong sayisi degildir");
         }
-    }
-}
+
+         */
+
+
+                Scanner scanner = new Scanner(System.in);
+                System.out.print("Bir sayı girin: ");
+                int maxNumber = scanner.nextInt();
+
+                for (int num = 1; num <= maxNumber; num++) {
+                    int numDigits = (int) Math.log10(num) + 1;
+                    int sum = 0;
+
+                    int divisor = 1;
+                    for (int i = 0; i < numDigits; i++) {
+                        int digit = (num / divisor) % 10;
+                        sum += Math.pow(digit, numDigits);
+                        divisor *= 10;
+                    }
+
+                    if (sum == num) {
+                        System.out.println(num + " bir Armstrong sayısıdır.");
+                    }
+                }
+            }
+        }
+
+
