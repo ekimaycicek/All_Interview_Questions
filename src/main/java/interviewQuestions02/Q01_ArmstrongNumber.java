@@ -15,9 +15,6 @@ import java.util.Scanner;
             153 = 1*1*1 + 5*5*5 + 3*3*3 = 153
             370 = 3*3*3 + 7*7*7 + 0*0*0 = 370
 
- Question-2: (ENG)  Write a program that shows whether each integer is an armstrong number from 1 to the entered number.
-             (TR)   Birden baslayarak girilen sayıya kadar her bir tamsayının amstrong sayı olup olmadıgını
-                    gösteren program yazınız.
  */
 public class Q01_ArmstrongNumber {
     public static void main(String[] args) {
