@@ -1,4 +1,7 @@
 package interviewQuestions02;
+
+import java.util.Scanner;
+
 /*
       (ENG) Write a method that finds whether the numbers up to one by the user are perfect or not.
       Perfect number: A number is perfect if the sum of its divisors, excluding itself, is equal to itself.
@@ -12,4 +15,39 @@ package interviewQuestions02;
       OUTPUT     :  1,2,3
  */
 public class Q03_PerfectNumber {
+
+    public static boolean mukemmelSayi (int sayi){
+
+
+        int sum = 1 ;
+        for (int i = 2; i < sayi ; i++) {
+
+            if (sayi % i == 0){
+                sum += i;
+            }
+
+        }
+
+        return sum == sayi;
+
+    }
+    public static void main(String[] args) {
+
+
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Bir sayi giriniz");
+        int sayi = scan.nextInt();
+
+        for (int i = 1; i <= sayi; i++) {
+
+
+            if (mukemmelSayi(i)){
+                System.out.println(i + "mükemmel sayidir");
+            }
+
+
+
+        }
+    }
 }
