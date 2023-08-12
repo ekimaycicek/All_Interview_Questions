@@ -1,4 +1,7 @@
 package interviewQuestions02;
+
+import java.util.Scanner;
+
 /*
     (ENG)   Construct a FIBONACCI sequence up to an integer received from the user.
             The Fibonacci number is a sequence of numbers that begin with 0 and 1,
@@ -14,4 +17,38 @@ package interviewQuestions02;
             0-1-1-2-3-5-8-13-21-34....
  */
 public class Q02_FibonacciListNumber {
-}
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen tamsayi giriniz");
+        int num = Math.abs(scan.nextInt());
+
+        int fib=0;
+        int fibo=1;
+        System.out.print("fibonacci: "+fib+ " - "+fibo);
+
+        while (fibo <= num) {
+
+            int sum = fib+fibo;
+
+            if (sum<=num) {
+                System.out.print(" - " + sum);
+            }
+
+            //Kac sefer donusturmek istiyorsak fori dongusu
+            //Donguyu sinirlamak icin while dongusu
+            fib =fibo;
+            fibo =sum;
+
+        }
+
+
+    }
+
+
+
+        }
+
+
+
+
