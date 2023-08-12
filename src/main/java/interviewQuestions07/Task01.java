@@ -10,25 +10,6 @@ public class Task01 {
  */
 
     public static void main(String[] args) {
-        /*Scanner scan = new Scanner(System.in);
-        System.out.println("Sayi giriniz");
-        int sayi = Math.abs(scan.nextInt());
-        int sum =0;
-        int temp=sayi;
-
-        while (temp>0){
-            int digit = temp%10;
-            sum += digit*digit*digit;
-            temp/=10;
-        }
-        if (sum==sayi){
-            System.out.println("Armstrong sayidir");
-        }else {
-            System.out.println("Armstrong sayisi degildir");
-        }
-
-         */
-
 
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Bir sayı girin: ");
