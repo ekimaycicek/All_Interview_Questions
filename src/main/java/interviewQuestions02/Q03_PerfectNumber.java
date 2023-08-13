@@ -33,17 +33,13 @@ public class Q03_PerfectNumber {
     }
     public static void main(String[] args) {
 
-
-
         Scanner scan = new Scanner(System.in);
         System.out.println("Bir sayi giriniz");
         int sayi = scan.nextInt();
 
         for (int i = 1; i <= sayi; i++) {
-
-
             if (mukemmelSayi(i)){
-                System.out.println(i + "mükemmel sayidir");
+                System.out.println(i + "mukemmel sayidir");
             }
 
 
