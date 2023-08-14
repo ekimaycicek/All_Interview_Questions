@@ -19,7 +19,7 @@ public class Q01_Palindrome {
         public static boolean isPalindrome(String str) {
             StringBuilder reversedString = new StringBuilder(str);
             reversedString.reverse();
-            return str.equals(reversedString.toString());
+            return str.equalsIgnoreCase(reversedString.toString());
         }
 
         public static void main(String[] args) {
