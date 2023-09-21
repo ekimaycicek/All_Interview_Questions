@@ -33,7 +33,7 @@ public class Q01_CountsOfCharacters {
                             counter++;
                         }
                     }
-                    sonuc += ch + " = " + counter + " " ;
+                    conclusion += ch + " = " + counter + " " ;
                 }
             }
 
