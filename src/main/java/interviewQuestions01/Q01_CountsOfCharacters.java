@@ -37,7 +37,7 @@ public class Q01_CountsOfCharacters {
                 }
             }
 
-            System.out.println(sonuc.substring(0, sonuc.length() - 1));
+            System.out.println(conclusion.substring(0, sonuc.length() - 1));
         }
     }
 
