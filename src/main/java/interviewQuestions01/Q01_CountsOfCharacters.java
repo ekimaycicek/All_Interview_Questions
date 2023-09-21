@@ -18,7 +18,7 @@ public class Q01_CountsOfCharacters {
         public static void main(String[] args) {
 
             Scanner scan = new Scanner(System.in);
-            System.out.print("please enter kelime giriniz ");
+            System.out.print("please enter a giriniz ");
             String input = scan.nextLine();
 
 
