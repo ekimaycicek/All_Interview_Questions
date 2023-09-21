@@ -22,7 +22,7 @@ public class Q01_CountsOfCharacters {
             String input = scan.nextLine();
 
 
-            String sonuc = "";
+            String conclusion = "";
             for (int i = 0; i < input.length(); i++) {
                 char ch = input.charAt(i);
 
