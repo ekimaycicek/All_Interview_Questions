@@ -26,7 +26,7 @@ public class Q01_CountsOfCharacters {
             for (int i = 0; i < input.length(); i++) {
                 char ch = input.charAt(i);
 
-                if (sonuc.indexOf(ch) == -1) {
+                if (conclusion.indexOf(ch) == -1) {
                     int counter = 0;
                     for (int a = i; a < input.length(); a++) {
                         if (ch == input.charAt(a)) {
