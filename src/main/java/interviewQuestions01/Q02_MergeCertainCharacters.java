@@ -23,11 +23,11 @@ public class Q02_MergeCertainCharacters {
         System.out.println("enter a number:");
         int number = scan.nextInt();
 
-        String conclusion = ilkSonHarf(text, number);
+        String conclusion = firstLastLetter(text, number);
         System.out.println("Conclusion: " + conclusion);
     }
 
-    private static String ilkSonHarf(String text, int number) {
+    private static String firstLastLetter(String text, int number) {
         String str = text.substring(0, 1) + text.substring(text.length() - 1);
         String conclusion = "";
 
