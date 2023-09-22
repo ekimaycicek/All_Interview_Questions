@@ -21,9 +21,9 @@ public class Q02_MergeCertainCharacters {
         String text = scan.nextLine();
 
         System.out.println("enter a number:");
-        int sayi = scan.nextInt();
+        int number = scan.nextInt();
 
-        String conclusion = ilkSonHarf(text, sayi);
+        String conclusion = ilkSonHarf(text, number);
         System.out.println("Conclusion: " + conclusion);
     }
 
