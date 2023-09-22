@@ -24,7 +24,7 @@ public class Q02_MergeCertainCharacters {
         int sayi = scan.nextInt();
 
         String conclusion = ilkSonHarf(text, sayi);
-        System.out.println("Sonuç: " + sonuc);
+        System.out.println("Conclusion: " + conclusion);
     }
 
     private static String ilkSonHarf(String mtn, int sayi) {
