@@ -28,14 +28,14 @@ public class Q02_MergeCertainCharacters {
     }
 
     private static String ilkSonHarf(String mtn, int sayi) {
-        String str = mtn.substring(0, 1) + mtn.substring(mtn.length() - 1);
-        String sonuc = "";
+        String str = text.substring(0, 1) + mtn.substring(mtn.length() - 1);
+        String conclusion = "";
 
         for (int i = 1; i <= sayi; i++) {
-            sonuc += str;
+            conclusion += str;
         }
 
-        return sonuc;
+        return conclusion;
     }
 }
 
