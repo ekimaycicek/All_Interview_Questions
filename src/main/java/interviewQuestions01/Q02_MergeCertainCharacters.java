@@ -23,7 +23,7 @@ public class Q02_MergeCertainCharacters {
         System.out.println("enter a number:");
         int sayi = scan.nextInt();
 
-        String sonuc = ilkSonHarf(text, sayi);
+        String conclusion = ilkSonHarf(text, sayi);
         System.out.println("Sonuç: " + sonuc);
     }
 
