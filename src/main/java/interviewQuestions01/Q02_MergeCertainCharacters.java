@@ -27,11 +27,11 @@ public class Q02_MergeCertainCharacters {
         System.out.println("Conclusion: " + conclusion);
     }
 
-    private static String ilkSonHarf(String text, int sayi) {
+    private static String ilkSonHarf(String text, int number) {
         String str = text.substring(0, 1) + text.substring(text.length() - 1);
         String conclusion = "";
 
-        for (int i = 1; i <= sayi; i++) {
+        for (int i = 1; i <= number; i++) {
             conclusion += str;
         }
 
