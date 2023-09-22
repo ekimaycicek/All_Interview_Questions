@@ -18,7 +18,7 @@ public class Q02_MergeCertainCharacters {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("please enter a text:");
-        String mtn = scan.nextLine();
+        String text = scan.nextLine();
 
         System.out.println("enter a number:");
         int sayi = scan.nextInt();
