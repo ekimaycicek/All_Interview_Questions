@@ -17,7 +17,7 @@ public class Q02_MergeCertainCharacters {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Lütfen bir metin giriniz:");
+        System.out.println("please bir metin giriniz:");
         String mtn = scan.nextLine();
 
         System.out.println("Bir sayı giriniz:");
