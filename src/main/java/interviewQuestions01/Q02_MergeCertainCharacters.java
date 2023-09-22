@@ -20,7 +20,7 @@ public class Q02_MergeCertainCharacters {
         System.out.println("please enter a text:");
         String mtn = scan.nextLine();
 
-        System.out.println("enter sayı giriniz:");
+        System.out.println("enter a number:");
         int sayi = scan.nextInt();
 
         String sonuc = ilkSonHarf(mtn, sayi);
