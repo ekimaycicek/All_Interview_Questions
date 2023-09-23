@@ -15,7 +15,7 @@ public class Q03_PrimeNumber {
                 int sayi = scanner.nextInt();
 
                 if (sayi <= 0) {
-                    System.out.println("Lütfen pozitif bir sayı giriniz.");
+                    System.out.println("Please pozitif bir sayı giriniz.");
                 } else if (isAsal(sayi)) {
                     System.out.println(sayi + " bir asal sayıdır.");
                 } else {
