@@ -19,7 +19,7 @@ public class Q03_PrimeNumber {
                 } else if (isAsal(sayi)) {
                     System.out.println(sayi + " is a prime number.");
                 } else {
-                    System.out.println(sayi + " is not a değildir.");
+                    System.out.println(sayi + " is not a prime.");
                 }
 
                 scanner.close();
