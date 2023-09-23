@@ -17,7 +17,7 @@ public class Q03_PrimeNumber {
                 if (sayi <= 0) {
                     System.out.println("Please positive enter a number.");
                 } else if (isAsal(sayi)) {
-                    System.out.println(sayi + " is a prime.");
+                    System.out.println(sayi + " is a prime number.");
                 } else {
                     System.out.println(sayi + " bir asal sayı değildir.");
                 }
