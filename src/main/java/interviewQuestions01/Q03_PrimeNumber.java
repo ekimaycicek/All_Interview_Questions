@@ -11,7 +11,7 @@ public class Q03_PrimeNumber {
 
                 Scanner scanner = new Scanner(System.in);
 
-                System.out.print("Positive bir sayı giriniz: ");
+                System.out.print("Positive enter: ");
                 int sayi = scanner.nextInt();
 
                 if (sayi <= 0) {
