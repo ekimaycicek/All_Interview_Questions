@@ -30,7 +30,7 @@ public class Q01_ArmstrongNumber {
         double result = Math.pow(number1,3)+ Math.pow(number2,3) + Math.pow(number3,3);
 
         if (number<100 && number2>999){
-            System.out.println("Lutfen 3 basamakli sayi giriniz");
+            System.out.println("please 3 basamakli sayi giriniz");
         } else if (number==result) {
             System.out.println("Armstrong sayidir");
 
