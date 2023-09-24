@@ -21,17 +21,17 @@ public class Q01_ArmstrongNumber {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("please enter 3 digit number");
-        int sayi =Math.abs(scan.nextInt());
+        int number =Math.abs(scan.nextInt());
 
-        int sayi1 = sayi / 100;
-        int sayi2 = (sayi / 10) % 10;
-        int sayi3 = sayi % 10;
+        int number1 = number / 100;
+        int sayi2 = (number / 10) % 10;
+        int sayi3 = number % 10;
 
-        double result = Math.pow(sayi1,3)+ Math.pow(sayi2,3) + Math.pow(sayi3,3);
+        double result = Math.pow(number1,3)+ Math.pow(sayi2,3) + Math.pow(sayi3,3);
 
-        if (sayi<100 && sayi2>999){
+        if (number<100 && sayi2>999){
             System.out.println("Lutfen 3 basamakli sayi giriniz");
-        } else if (sayi==result) {
+        } else if (number==result) {
             System.out.println("Armstrong sayidir");
 
         }else {
