@@ -25,7 +25,7 @@ public class Q03_PrimeNumber {
                 scanner.close();
             }
 
-            public static boolean isAsal(int sayi) {
+            public static boolean isAsal(int number) {
                 if (sayi <= 1) {
                     return false;
                 }
