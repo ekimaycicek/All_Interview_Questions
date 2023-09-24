@@ -26,7 +26,7 @@ public class Q03_PrimeNumber {
             }
 
             public static boolean isAsal(int number) {
-                if (sayi <= 1) {
+                if (number <= 1) {
                     return false;
                 }
                 for (int i = 2; i <= Math.sqrt(sayi); i++) {
