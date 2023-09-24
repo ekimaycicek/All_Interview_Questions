@@ -25,9 +25,9 @@ public class Q01_ArmstrongNumber {
 
         int number1 = number / 100;
         int number2 = (number / 10) % 10;
-        int sayi3 = number % 10;
+        int number3 = number % 10;
 
-        double result = Math.pow(number1,3)+ Math.pow(number2,3) + Math.pow(sayi3,3);
+        double result = Math.pow(number1,3)+ Math.pow(number2,3) + Math.pow(number3,3);
 
         if (number<100 && number2>999){
             System.out.println("Lutfen 3 basamakli sayi giriniz");
