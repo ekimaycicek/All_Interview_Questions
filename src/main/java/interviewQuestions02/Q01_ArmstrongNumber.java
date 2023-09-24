@@ -20,7 +20,7 @@ public class Q01_ArmstrongNumber {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("please 3 enter bir sayi giriniz");
+        System.out.println("please 3 enter a sayi giriniz");
         int sayi =Math.abs(scan.nextInt());
 
         int sayi1 = sayi / 100;
