@@ -34,7 +34,7 @@ public class Q03_PerfectNumber {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("enter ");
+        System.out.println("enter a number");
         int number = scan.nextInt();
 
         for (int i = 1; i <= number; i++) {
