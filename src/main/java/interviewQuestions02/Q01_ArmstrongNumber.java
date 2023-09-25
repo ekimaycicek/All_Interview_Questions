@@ -32,7 +32,7 @@ public class Q01_ArmstrongNumber {
         if (number<100 && number2>999){
             System.out.println("please enter 3 digit number");
         } else if (number==result) {
-            System.out.println("Armstrong is the");
+            System.out.println("Armstrong is the number");
 
         }else {
             System.out.println("Armstrong is not a number");
