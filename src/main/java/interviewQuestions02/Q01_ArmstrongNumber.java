@@ -35,7 +35,7 @@ public class Q01_ArmstrongNumber {
             System.out.println("Armstrong is");
 
         }else {
-            System.out.println("Armstrong is");
+            System.out.println("Armstrong is not");
         }
     }
 }
