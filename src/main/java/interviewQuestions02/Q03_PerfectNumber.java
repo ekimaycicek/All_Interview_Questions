@@ -39,7 +39,7 @@ public class Q03_PerfectNumber {
 
         for (int i = 1; i <= number; i++) {
             if (excellentNumber(i)){
-                System.out.println(i + "mukemmel sayidir");
+                System.out.println(i + "is ");
             }
 
 
