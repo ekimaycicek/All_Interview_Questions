@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class Q03_PerfectNumber {
 
-    public static boolean mukemmelSayi (int sayi){
+    public static boolean excellentNumber (int sayi){
 
 
         int sum = 1 ;
@@ -38,7 +38,7 @@ public class Q03_PerfectNumber {
         int sayi = scan.nextInt();
 
         for (int i = 1; i <= sayi; i++) {
-            if (mukemmelSayi(i)){
+            if (excellentNumber(i)){
                 System.out.println(i + "mukemmel sayidir");
             }
 
