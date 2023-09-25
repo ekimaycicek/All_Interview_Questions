@@ -35,9 +35,9 @@ public class Q03_PerfectNumber {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Bir sayi giriniz");
-        int sayi = scan.nextInt();
+        int number = scan.nextInt();
 
-        for (int i = 1; i <= sayi; i++) {
+        for (int i = 1; i <= number; i++) {
             if (excellentNumber(i)){
                 System.out.println(i + "mukemmel sayidir");
             }
