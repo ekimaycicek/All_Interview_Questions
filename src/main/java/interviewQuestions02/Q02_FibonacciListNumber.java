@@ -20,7 +20,7 @@ public class Q02_FibonacciListNumber {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lutfen tamsayi giriniz");
+        System.out.println("please");
         int num = Math.abs(scan.nextInt());
 
         int fib=0;
