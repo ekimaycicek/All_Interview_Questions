@@ -16,19 +16,19 @@ import java.util.Scanner;
  */
 public class Q03_PerfectNumber {
 
-    public static boolean excellentNumber (int sayi){
+    public static boolean excellentNumber (int number){
 
 
         int sum = 1 ;
-        for (int i = 2; i < sayi ; i++) {
+        for (int i = 2; i < number ; i++) {
 
-            if (sayi % i == 0){
+            if (number % i == 0){
                 sum += i;
             }
 
         }
 
-        return sum == sayi;
+        return sum == number;
 
     }
     public static void main(String[] args) {
