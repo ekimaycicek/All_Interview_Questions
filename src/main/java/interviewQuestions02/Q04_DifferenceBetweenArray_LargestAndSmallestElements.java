@@ -38,7 +38,7 @@ public class Q04_DifferenceBetweenArray_LargestAndSmallestElements {
 
 
             int method = arrayDizi(array);
-            System.out.println("Dizideki en büyük ve en küçük elemanların farkı: " + method);
+            System.out.println("Difference: " + method);
         }
     }
 
