@@ -32,7 +32,7 @@ public class Q04_DifferenceBetweenArray_LargestAndSmallestElements {
 
             int[] array = new int[dizi];
             for (int i = 0; i < dizi; i++) {
-                System.out.println("Dizinin " + (i + 1) + ". elemanını giriniz: ");
+                System.out.println("of " + (i + 1) + ". elemanını giriniz: ");
                 array[i] = scanner.nextInt();
             }
 
