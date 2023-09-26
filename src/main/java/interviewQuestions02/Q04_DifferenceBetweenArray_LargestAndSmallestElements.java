@@ -26,7 +26,7 @@ public class Q04_DifferenceBetweenArray_LargestAndSmallestElements {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Enter array");
+            System.out.println("Enter array size");
             int dizi = scanner.nextInt();
 
 
