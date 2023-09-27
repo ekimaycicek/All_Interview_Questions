@@ -24,7 +24,7 @@ public class Q01_Palindrome {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("enter a: ");
+            System.out.println("enter a word: ");
             String str = scanner.nextLine();
             if (isPalindrome(str)) {
                 System.out.println("Kelime bir palindromedur");
