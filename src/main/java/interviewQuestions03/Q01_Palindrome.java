@@ -27,7 +27,7 @@ public class Q01_Palindrome {
             System.out.println("enter a word: ");
             String str = scanner.nextLine();
             if (isPalindrome(str)) {
-                System.out.println("the word");
+                System.out.println("the word is ");
             } else {
                 System.out.println("Kelime bir palindrome değildir");
             }
