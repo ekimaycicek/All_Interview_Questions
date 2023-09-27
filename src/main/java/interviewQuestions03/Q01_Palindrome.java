@@ -29,7 +29,7 @@ public class Q01_Palindrome {
             if (isPalindrome(str)) {
                 System.out.println("the word is a palindrome");
             } else {
-                System.out.println("Kelime bir palindrome değildir");
+                System.out.println("the ");
             }
         }
     }
