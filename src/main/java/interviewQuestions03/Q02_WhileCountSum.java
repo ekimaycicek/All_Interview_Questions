@@ -20,7 +20,7 @@ public class Q02_WhileCountSum {
         int sayi=0;
 
         for (int i = 1; i<=10 ; i++) {
-            System.out.println("Lutfen sayi giriniz");
+            System.out.println("please");
             int num = input.nextInt();
             adet++;
             sayi = sayi+num;
