@@ -29,7 +29,7 @@ public class Q02_WhileCountSum {
             }
 
         }
-        System.out.println(adet+" adet sayi girdin, toplami: "+sayi);
+        System.out.println(adet+" you : "+sayi);
 
 
 
