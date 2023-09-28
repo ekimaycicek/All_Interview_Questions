@@ -17,19 +17,19 @@ public class Q02_WhileCountSum {
         Scanner input = new Scanner(System.in);
 
         int piece=0;
-        int sayi=0;
+        int number=0;
 
         for (int i = 1; i<=10 ; i++) {
             System.out.println("please enter number");
             int num = input.nextInt();
             piece++;
-            sayi = sayi+num;
-            if (piece<=10 || sayi<=500){
+            number = number+num;
+            if (piece<=10 || number<=500){
 
             }
 
         }
-        System.out.println(piece+" you entered a number of numbers, the total is : "+sayi);
+        System.out.println(piece+" you entered a number of numbers, the total is : "+number);
 
 
 
