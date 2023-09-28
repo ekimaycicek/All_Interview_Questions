@@ -29,7 +29,7 @@ public class Q02_WhileCountSum {
             }
 
         }
-        System.out.println(adet+" you entered a number: "+sayi);
+        System.out.println(adet+" you entered a number of : "+sayi);
 
 
 
