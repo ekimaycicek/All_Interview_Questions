@@ -16,20 +16,20 @@ public class Q02_WhileCountSum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int adet=0;
+        int piece=0;
         int sayi=0;
 
         for (int i = 1; i<=10 ; i++) {
             System.out.println("please enter number");
             int num = input.nextInt();
-            adet++;
+            piece++;
             sayi = sayi+num;
-            if (adet<=10 || sayi<=500){
+            if (piece<=10 || sayi<=500){
 
             }
 
         }
-        System.out.println(adet+" you entered a number of numbers, the total is : "+sayi);
+        System.out.println(piece+" you entered a number of numbers, the total is : "+sayi);
 
 
 
