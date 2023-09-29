@@ -27,7 +27,7 @@ public class Q03_FrequencyOfCertainChar {
                 count++;
             }
         }
-        System.out.println("The: "+count);
+        System.out.println("The number: "+count);
 
 
     }
