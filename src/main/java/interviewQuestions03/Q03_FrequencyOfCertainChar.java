@@ -17,7 +17,7 @@ public class Q03_FrequencyOfCertainChar {
         System.out.print("Enter a name: ");
         String name = scan.nextLine();
 
-        System.out.print("Enter : ");
+        System.out.print("Enter a : ");
         char ch = scan.next().charAt(0);
 
         int count =0;
