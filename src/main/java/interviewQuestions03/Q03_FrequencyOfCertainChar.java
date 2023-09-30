@@ -25,7 +25,6 @@ public class Q03_FrequencyOfCertainChar {
         for (int i = 0; i <name.length(); i++) {
             if (name.charAt(i)==ch){
                 count++;
-
             }
         }
         System.out.println("The number of repetitions: "+count);
