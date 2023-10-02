@@ -1,4 +1,7 @@
 package interviewQuestions01;
+
+import java.util.Scanner;
+
 /*
         (ENG) Get a sentence and a letter from the user,
               * How many times the letter in the sentence find used and print.
