@@ -11,5 +11,27 @@ package interviewQuestions01;
                OUTPUT : The letter "e" is used 3 times in the sentence you entered.
  */
 public class Q05_ForFlashBack {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Bir cümle girin: ");
+        String sentence = scanner.nextLine();
+
+        System.out.println("Bir harf girin: ");
+        char letter = scanner.next().charAt(0);
+
+        int count = countLetters(sentence, letter);
+
+        System.out.println("Girdiğiniz cümlede '" + letter + "' harfi " + count + " kez kullanılmıştır.");
+    }
+
+    private static int countLetters(String sentence, char letter) {
+        int count = 0;
+        for (int i = 0; i < sentence.length(); i++) {
+            if (sentence.charAt(i) == letter) {
+                count++;
+            }
+        }
+        return count;
+    }
 }
