@@ -20,7 +20,7 @@ public class Q05_ForFlashBack {
         System.out.println("Enter a sentence: ");
         String sentence = scanner.nextLine();
 
-        System.out.println(": ");
+        System.out.println("Enter : ");
         char letter = scanner.next().charAt(0);
 
         int count = countLetters(sentence, letter);
