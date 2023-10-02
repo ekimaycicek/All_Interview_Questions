@@ -17,7 +17,7 @@ public class Q05_ForFlashBack {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a: ");
+        System.out.println("Enter a sentence: ");
         String sentence = scanner.nextLine();
 
         System.out.println("Bir harf girin: ");
