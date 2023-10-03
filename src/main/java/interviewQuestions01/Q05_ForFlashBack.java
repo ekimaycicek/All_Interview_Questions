@@ -25,7 +25,7 @@ public class Q05_ForFlashBack {
 
         int count = countLetters(sentence, letter);
 
-        System.out.println("In the sentence you entered" + letter + "' letter " + count + "used tim.");
+        System.out.println("In the sentence you entered" + letter + "' letter " + count + "used time.");
     }
 
     private static int countLetters(String sentence, char letter) {
