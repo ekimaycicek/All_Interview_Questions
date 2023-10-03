@@ -25,7 +25,7 @@ public class Q05_ForFlashBack {
 
         int count = countLetters(sentence, letter);
 
-        System.out.println("In the '" + letter + "' harfi " + count + " kez kullanılmıştır.");
+        System.out.println("In the sentence'" + letter + "' harfi " + count + " kez kullanılmıştır.");
     }
 
     private static int countLetters(String sentence, char letter) {
