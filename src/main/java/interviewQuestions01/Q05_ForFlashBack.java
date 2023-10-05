@@ -23,7 +23,6 @@ public class Q05_ForFlashBack {
 
 
 
-
         System.out.println("Enter a letter: ");
         char letter = scanner.next().charAt(0);
 
