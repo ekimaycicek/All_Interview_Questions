@@ -28,7 +28,6 @@ public class Q05_ForFlashBack {
         System.out.println("In the sentence you entered" + letter + "' letter " + count + "used times.");
     }
 
-
     private static int countLetters(String sentence, char letter) {
         int count = 0;
         for (int i = 0; i < sentence.length(); i++) {
