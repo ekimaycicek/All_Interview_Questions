@@ -23,6 +23,7 @@ public class Q02_FibonacciListNumber {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("please enter integer");
+
         int num = Math.abs(scan.nextInt());
 
         int fib=0;
