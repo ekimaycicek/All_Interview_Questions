@@ -26,6 +26,7 @@ public class Q02_FibonacciListNumber {
         int num = Math.abs(scan.nextInt());
 
 
+
         int fib=0;
         int fibo=1;
         System.out.print("fibonacci: "+fib+ " - "+fibo);
