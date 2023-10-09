@@ -31,7 +31,6 @@ public class Q02_FibonacciListNumber {
 
 
 
-
         System.out.print("fibonacci: "+fib+ " - "+fibo);
 
         while (fibo <= num) {
