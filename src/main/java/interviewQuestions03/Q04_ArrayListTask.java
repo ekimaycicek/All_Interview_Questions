@@ -51,7 +51,7 @@ public class Q04_ArrayListTask {
         liste.add(0, eleman);
     }
 
-    // Part 3 - Son elemandan önce eleman eklemek
+
     public static void ekleSonElemanOncesine(ArrayList<String> liste, String eleman, String oncekiEleman) {
         int indeks = liste.indexOf(oncekiEleman);
         if (indeks != -1) {
