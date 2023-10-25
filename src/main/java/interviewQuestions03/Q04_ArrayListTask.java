@@ -41,7 +41,7 @@ public class Q04_ArrayListTask {
         ekleIlkElemana(renkler, "Turuncu");
         System.out.println("Part 2 Sonucu: " + renkler);
 
-        // Pa
+        // P
         ekleSonElemanOncesine(renkler, "Pembe", "Yeşil");
         System.out.println("Part 3 Sonucu: " + renkler);
     }
