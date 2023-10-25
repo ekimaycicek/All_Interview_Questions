@@ -36,7 +36,7 @@ public class Q04_ArrayListTask {
             System.out.println(renk);
         }
 
-        // Pa
+        // P
         String[] dizi = {"Kırmızı", "Yeşil", "Mavi", "Sarı", "Siyah"};
         ekleIlkElemana(renkler, "Turuncu");
         System.out.println("Part 2 Sonucu: " + renkler);
