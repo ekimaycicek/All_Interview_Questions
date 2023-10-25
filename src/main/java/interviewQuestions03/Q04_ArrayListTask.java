@@ -1,4 +1,7 @@
 package interviewQuestions03;
+
+import java.util.ArrayList;
+
 /*
 (ENG)
 Part1: Create an arraylist of Strings
@@ -20,4 +23,39 @@ Part3:  Bir String dizi listesini ve bir String'i parametre olarak kabul eden bi
        Ex:  [1, 2, 3]  -> [1, 2, 4, 3]
  */
 public class Q04_ArrayListTask {
+    public static void main(String[] args) {
+        // Part 1
+        ArrayList<String> renkler = new ArrayList<String>();
+        renkler.add("Kırmızı");
+        renkler.add("Yeşil");
+        renkler.add("Mavi");
+        renkler.add("Sarı");
+        renkler.add("Siyah");
+
+        for (String renk : renkler) {
+            System.out.println(renk);
+        }
+
+        // Part 2
+        String[] dizi = {"Kırmızı", "Yeşil", "Mavi", "Sarı", "Siyah"};
+        ekleIlkElemana(renkler, "Turuncu");
+        System.out.println("Part 2 Sonucu: " + renkler);
+
+        // Part 3
+        ekleSonElemanOncesine(renkler, "Pembe", "Yeşil");
+        System.out.println("Part 3 Sonucu: " + renkler);
+    }
+
+    // Part 2 - İlk elemana eklemek
+    public static void ekleIlkElemana(ArrayList<String> liste, String eleman) {
+        liste.add(0, eleman);
+    }
+
+    // Part 3 - Son elemandan önce eleman eklemek
+    public static void ekleSonElemanOncesine(ArrayList<String> liste, String eleman, String oncekiEleman) {
+        int indeks = liste.indexOf(oncekiEleman);
+        if (indeks != -1) {
+            liste.add(indeks, eleman);
+        }
+    }
 }
