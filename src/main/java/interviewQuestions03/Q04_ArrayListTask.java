@@ -46,7 +46,7 @@ public class Q04_ArrayListTask {
         System.out.println("Part 3 Sonucu: " + renkler);
     }
 
-    // Part 2 - İlk elemana eklemek
+    // Part 2 - İlk elemana ekleme
     public static void ekleIlkElemana(ArrayList<String> liste, String eleman) {
         liste.add(0, eleman);
     }
