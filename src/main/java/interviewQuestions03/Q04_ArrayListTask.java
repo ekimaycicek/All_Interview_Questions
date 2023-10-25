@@ -24,7 +24,7 @@ Part3:  Bir String dizi listesini ve bir String'i parametre olarak kabul eden bi
  */
 public class Q04_ArrayListTask {
     public static void main(String[] args) {
-        // Par
+        // Pa
         ArrayList<String> renkler = new ArrayList<String>();
         renkler.add("Kırmızı");
         renkler.add("Yeşil");
