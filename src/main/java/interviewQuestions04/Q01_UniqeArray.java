@@ -12,6 +12,8 @@ package interviewQuestions04;
 public class Q01_UniqeArray {
     public static int[] deleteRepeatingNumbers(int[] array) {
         int[] result = new int[array.length];
+        int uniqueElementsIndex = 0;
+
 
     }
     }
