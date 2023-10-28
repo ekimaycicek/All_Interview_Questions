@@ -21,3 +21,4 @@ public class Q01_UniqeArray {
     }
         return Arrays.copyOf(result, uniqueElementsIndex);
     }
+    public static void main(String[] args) {
