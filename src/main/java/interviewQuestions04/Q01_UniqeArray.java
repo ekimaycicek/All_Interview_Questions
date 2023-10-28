@@ -23,3 +23,4 @@ public class Q01_UniqeArray {
     }
     public static void main(String[] args) {
         int[] array = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
+        int[] nonRepeatedNumbers = deleteRepeatingNumbers(array);
