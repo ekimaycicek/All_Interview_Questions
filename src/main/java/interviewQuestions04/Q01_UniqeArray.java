@@ -14,6 +14,7 @@ public class Q01_UniqeArray {
         int[] result = new int[array.length];
         int uniqueElementsIndex = 0;
         for (int i = 0; i < array.length; i++) {
+            if (i == 0 || array[i] != array[i - 1]) {
 
 
     }
