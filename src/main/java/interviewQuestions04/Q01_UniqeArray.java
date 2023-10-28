@@ -1,4 +1,7 @@
 package interviewQuestions04;
+
+import java.util.Arrays;
+
 /*
 (EN) Delete the repeating numbers in the given array, except the first one,
      Write a program that returns an array of non-repeated numbers.
@@ -25,3 +28,5 @@ public class Q01_UniqeArray {
         int[] array = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
         int[] nonRepeatedNumbers = deleteRepeatingNumbers(array);
         System.out.println(Arrays.toString(nonRepeatedNumbers));
+    }
+}
