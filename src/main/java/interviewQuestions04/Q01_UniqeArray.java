@@ -10,4 +10,6 @@ package interviewQuestions04;
       OUTPUT : [1, 2, 3, 4, -2, 5, 6, 8, 7, 9, 10]
  */
 public class Q01_UniqeArray {
-}
+    public static int[] deleteRepeatingNumbers(int[] array) {
+    }
+    }
