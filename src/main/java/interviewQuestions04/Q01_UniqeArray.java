@@ -17,6 +17,7 @@ public class Q01_UniqeArray {
             if (i == 0 || array[i] != array[i - 1]) {
                 result[uniqueElementsIndex++] = array[i];
 
-
     }
+    }
+        return Arrays.copyOf(result, uniqueElementsIndex);
     }
