@@ -27,6 +27,9 @@ public class Q02_CreateRandomList_SetList {
 
 
         if (!list.contains(111)) {
+            System.out.println("There is no even number in the list.");
+        }
+    }
             }
         }
     }
