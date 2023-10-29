@@ -30,5 +30,5 @@ public class Q02_CreateRandomList_SetList {
             System.out.println("There is no even number in the list.");
         }
     }
-            }
+
     public static void main(String[] args) {
