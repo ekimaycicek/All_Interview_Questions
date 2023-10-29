@@ -1,4 +1,7 @@
 package interviewQuestions04;
+
+import java.util.ArrayList;
+
 /*
 (ENG)
 Create an int array list with 10 elements,
