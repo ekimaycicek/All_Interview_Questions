@@ -20,6 +20,9 @@ public class Q02_CreateRandomList_SetList {
             int number = random.nextInt(21);
             if (number % 2 == 0) {
                 list.set(i, 111);
+            } else {
+                list.add(i, number);
+            }
             }
         }
     }
