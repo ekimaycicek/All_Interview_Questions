@@ -46,11 +46,3 @@ public class Q02_CreateRandomList_SetList {
         }
     }
 }
-
-
-
-
-
-
-
-    }
