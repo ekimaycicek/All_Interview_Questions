@@ -35,6 +35,7 @@ public class Q02_CreateRandomList_SetList {
         ArrayList<Integer> list = new ArrayList<>();
         addRandom(list);
 
+        System.out.println("The list is: ");
 
 
 
