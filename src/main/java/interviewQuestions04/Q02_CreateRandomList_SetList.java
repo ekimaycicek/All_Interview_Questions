@@ -37,7 +37,11 @@ public class Q02_CreateRandomList_SetList {
 
         System.out.println("The list is: ");
 
-
+        for (Integer element : list) {
+            System.out.println(element);
+        }
+    }
+}
 
 
 
