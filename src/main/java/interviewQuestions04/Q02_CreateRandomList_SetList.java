@@ -31,3 +31,4 @@ public class Q02_CreateRandomList_SetList {
         }
     }
             }
+    public static void main(String[] args) {
