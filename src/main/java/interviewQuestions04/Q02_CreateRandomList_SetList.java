@@ -19,6 +19,8 @@ public class Q02_CreateRandomList_SetList {
         for (int i = 0; i < 10; i++) {
             int number = random.nextInt(21);
             if (number % 2 == 0) {
+                list.set(i, 111);
+            }
         }
     }
 }
