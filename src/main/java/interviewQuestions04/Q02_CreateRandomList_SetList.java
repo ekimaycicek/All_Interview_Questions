@@ -14,4 +14,5 @@ Create an int array list with 10 elements,
      Eğer çift sayı yoksa çift sayı yoktur mesajını versin.
  */
 public class Q02_CreateRandomList_SetList {
+    static void addRandom(ArrayList<Integer> list) {
 }
