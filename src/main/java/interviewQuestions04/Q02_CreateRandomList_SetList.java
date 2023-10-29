@@ -16,5 +16,6 @@ Create an int array list with 10 elements,
 public class Q02_CreateRandomList_SetList {
     static void addRandom(ArrayList<Integer> list) {
         Random random = new Random();
+        for (int i = 0; i < 10; i++) {
     }
 }
