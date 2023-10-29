@@ -23,6 +23,10 @@ public class Q02_CreateRandomList_SetList {
             } else {
                 list.add(i, number);
             }
+        }
+
+
+        if (!list.contains(111)) {
             }
         }
     }
