@@ -30,7 +30,9 @@ public class Q03_HackerLanguage {
             if (translations.containsKey(c)) {
                 hackerText.append(translations.get(c));
             } else {
-
+                hackerText.append(c);
+            }
+        }
 
 
 
