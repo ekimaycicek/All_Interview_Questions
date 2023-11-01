@@ -18,4 +18,5 @@ package interviewQuestions04;
 
  */
 public class Q03_HackerLanguage {
+    public static String hackerlanguage(String text) {
 }
