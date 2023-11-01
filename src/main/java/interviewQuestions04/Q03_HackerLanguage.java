@@ -37,7 +37,7 @@ public class Q03_HackerLanguage {
     }
     public static void main(String[] args) {
         String text = "Java ile çöz";
-
+        String hackerText = hackerlanguage(text);
 
 
 
