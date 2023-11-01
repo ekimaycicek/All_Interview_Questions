@@ -24,7 +24,7 @@ public class Q03_HackerLanguage {
         translations.put('e', 3);
         translations.put('i', 1);
         translations.put('o', 0);
-
+        StringBuilder hackerText = new StringBuilder();
 
 
 
