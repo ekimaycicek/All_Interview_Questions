@@ -20,5 +20,6 @@ package interviewQuestions04;
 public class Q03_HackerLanguage {
     public static String hackerlanguage(String text) {
         Map<Character, Integer> translations = new HashMap<>();
+        translations.put('a', 4);
     }
 }
