@@ -28,7 +28,8 @@ public class Q03_HackerLanguage {
         for (int i = 0; i < text.length(); i++) {
             char c = text.charAt(i);
             if (translations.containsKey(c)) {
-
+                hackerText.append(translations.get(c));
+            } else {
 
 
 
