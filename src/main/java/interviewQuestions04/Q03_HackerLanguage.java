@@ -36,7 +36,7 @@ public class Q03_HackerLanguage {
         return hackerText.toString();
     }
     public static void main(String[] args) {
-
+        String text = "Java ile çöz";
 
 
 
