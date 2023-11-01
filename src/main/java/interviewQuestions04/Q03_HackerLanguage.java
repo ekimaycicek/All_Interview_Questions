@@ -23,7 +23,7 @@ public class Q03_HackerLanguage {
         translations.put('a', 4);
         translations.put('e', 3);
         translations.put('i', 1);
-
+        translations.put('o', 0);
 
 
 
