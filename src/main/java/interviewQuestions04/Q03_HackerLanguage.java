@@ -22,7 +22,7 @@ public class Q03_HackerLanguage {
         Map<Character, Integer> translations = new HashMap<>();
         translations.put('a', 4);
         translations.put('e', 3);
-
+        translations.put('i', 1);
 
 
 
