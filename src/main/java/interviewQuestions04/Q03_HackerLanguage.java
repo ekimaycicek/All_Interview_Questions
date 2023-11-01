@@ -33,7 +33,8 @@ public class Q03_HackerLanguage {
                 hackerText.append(c);
             }
         }
-
+        return hackerText.toString();
+    }
 
 
 
