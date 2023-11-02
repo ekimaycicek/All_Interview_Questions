@@ -39,9 +39,9 @@ public class Q05_SpecialCharRemoveArray {
 
         ArrayList<Integer> list = new ArrayList<>();
         list.add(10);
-        list.add('$');
+        list.add((int) '$');
         list.add(20);
-        list.add('$');
+        list.add((int) '$');
         list.add(-30);
 
         int sum = getSum(list);
