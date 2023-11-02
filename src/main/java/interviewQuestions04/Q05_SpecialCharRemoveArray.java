@@ -37,6 +37,7 @@ public class Q05_SpecialCharRemoveArray {
         list.add(10);
         list.add('$');
         list.add(20);
+        list.add('$');
 
 
 
