@@ -26,6 +26,7 @@ public class Q05_SpecialCharRemoveArray {
 
     public static int getSum(ArrayList<Integer> list) {
         list.removeIf(element -> element == '$');
+        int sum = 0;
     }
 
 
