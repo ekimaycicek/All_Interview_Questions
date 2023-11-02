@@ -1,4 +1,7 @@
 package interviewQuestions04;
+
+import java.util.ArrayList;
+
 /*
 (EN)Problem Definition:
     Create a method called getSum.
