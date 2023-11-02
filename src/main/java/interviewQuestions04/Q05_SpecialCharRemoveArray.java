@@ -33,7 +33,7 @@ public class Q05_SpecialCharRemoveArray {
         return sum >= 0 ? sum : -1;
     }
     public static void main(String[] args) {
-
+        ArrayList<Integer> list = new ArrayList<>();
 
 
 
