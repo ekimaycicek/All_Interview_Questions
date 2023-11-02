@@ -41,6 +41,8 @@ public class Q05_SpecialCharRemoveArray {
         list.add(-30);
         int sum = getSum(list);
 
+        System.out.println("Sum of the array: " + sum);
+    }
 
 
 
