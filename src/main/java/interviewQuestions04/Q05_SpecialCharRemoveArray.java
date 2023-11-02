@@ -30,6 +30,8 @@ public class Q05_SpecialCharRemoveArray {
         for (int element : list) {
             sum += element;
     }
+        return sum >= 0 ? sum : -1;
+    }
 
 
 
