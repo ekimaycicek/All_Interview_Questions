@@ -23,4 +23,33 @@ package interviewQuestions04;
    Answer    = Must be -1
  */
 public class Q05_SpecialCharRemoveArray {
+
+    public static int getSum(ArrayList<Integer> list) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -1,4 +1,8 @@
 package interviewQuestions04;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /*
 (EN) Write a method(method name hackerlanguage) that translates the text written by the user into
      the spoken language of 'hackers'.
