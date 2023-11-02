@@ -35,7 +35,7 @@ public class Q05_SpecialCharRemoveArray {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(10);
-
+        list.add('$');
 
 
 
