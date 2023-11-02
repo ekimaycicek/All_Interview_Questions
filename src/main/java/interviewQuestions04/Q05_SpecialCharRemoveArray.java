@@ -25,6 +25,8 @@ package interviewQuestions04;
 public class Q05_SpecialCharRemoveArray {
 
     public static int getSum(ArrayList<Integer> list) {
+        list.removeIf(element -> element == '$');
+    }
 
 
 
