@@ -46,25 +46,4 @@ public class Q05_SpecialCharRemoveArray {
         System.out.println("Sum of the array: " + sum);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
