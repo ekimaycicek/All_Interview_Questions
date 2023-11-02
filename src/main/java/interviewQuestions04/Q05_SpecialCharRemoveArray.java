@@ -39,7 +39,7 @@ public class Q05_SpecialCharRemoveArray {
         list.add(20);
         list.add('$');
         list.add(-30);
-
+        int sum = getSum(list);
 
 
 
