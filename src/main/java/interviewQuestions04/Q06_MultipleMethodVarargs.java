@@ -22,4 +22,4 @@ public class Q06_MultipleMethodVarargs {
         return (double) sum / grades.length;
         }
     }
-    }
+
