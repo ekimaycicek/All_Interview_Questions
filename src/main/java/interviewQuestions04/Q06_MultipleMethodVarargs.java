@@ -16,5 +16,6 @@ public class Q06_MultipleMethodVarargs {
     }
     public static double calculateAverage(int[] grades) {
         int sum = 0;
+        for (int grade : grades) {
     }
     }
