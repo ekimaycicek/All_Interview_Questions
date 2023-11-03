@@ -19,6 +19,7 @@ public class Q06_MultipleMethodVarargs {
         for (int grade : grades) {
             sum += grade;
         }
+        return (double) sum / grades.length;
         }
     }
     }
