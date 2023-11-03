@@ -15,4 +15,6 @@ public class Q06_MultipleMethodVarargs {
         System.out.println("The average grade is " + average + ".");
     }
     public static double calculateAverage(int[] grades) {
+        int sum = 0;
+    }
     }
