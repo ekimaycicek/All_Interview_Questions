@@ -9,4 +9,6 @@ package interviewQuestions04;
 
 */
 public class Q06_MultipleMethodVarargs {
-}
+    public static void main(String[] args) {
+
+    }
