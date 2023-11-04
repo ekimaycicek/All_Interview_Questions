@@ -10,7 +10,7 @@ public class Q02_PrintEvenNumber {
     public static boolean isEven(int number) {
         return number % 2 == 0;
     }
-}
 
     public static boolean isEven(int number) {
-        return
+        return (number % 2) == 0;
+    }
