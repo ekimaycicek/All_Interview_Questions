@@ -20,6 +20,9 @@ public class Q02_PrintEvenNumber {
         boolean isEven = isEven(number);
         if (isEven) {
             System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
         }
 
 
