@@ -7,4 +7,5 @@ package interviewQuestions05;
       Argüman çift ise yöntem true, aksi takdirde false döndürmelidir.
  */
 public class Q02_PrintEvenNumber {
+    public static boolean isEven(int number) {
 }
