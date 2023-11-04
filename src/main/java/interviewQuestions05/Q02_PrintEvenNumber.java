@@ -17,4 +17,5 @@ public class Q02_PrintEvenNumber {
 
     public static void main(String[] args) {
         int number = 10;
+        boolean isEven = isEven(number);
     }
