@@ -19,7 +19,7 @@ public class Q02_PrintEvenNumber {
         int number = 10;
         boolean isEven = isEven(number);
         if (isEven) {
-
+            System.out.println("The number is even.");
         }
 
 
