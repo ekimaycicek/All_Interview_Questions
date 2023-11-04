@@ -26,6 +26,5 @@ public class Q02_PrintEvenNumber {
         }
 
 
-
         }
     }
