@@ -13,3 +13,4 @@ public class Q02_PrintEvenNumber {
 }
 
     public static boolean isEven(int number) {
+        return
