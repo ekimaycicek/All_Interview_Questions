@@ -11,6 +11,7 @@ public class Q04_PrintVowelsOfString {
         String string = scanner.nextLine();
         char[] characters = string.toCharArray();
         for (char character : characters) {
+            if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u') {
 
     }
 }
