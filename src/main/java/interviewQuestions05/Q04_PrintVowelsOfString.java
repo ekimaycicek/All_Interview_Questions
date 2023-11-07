@@ -14,6 +14,7 @@ public class Q04_PrintVowelsOfString {
             if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u') {
                 System.out.print(character);
             }
+        }
 
     }
 }
