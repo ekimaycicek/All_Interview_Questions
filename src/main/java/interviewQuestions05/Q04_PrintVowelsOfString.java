@@ -10,6 +10,7 @@ public class Q04_PrintVowelsOfString {
         System.out.print("Bir string girin: ");
         String string = scanner.nextLine();
         char[] characters = string.toCharArray();
+        for (char character : characters) {
 
     }
 }
