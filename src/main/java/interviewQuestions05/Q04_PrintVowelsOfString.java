@@ -5,4 +5,5 @@ package interviewQuestions05;
 (TR)  Kullanıcıdan String'i alın ve konsoldaki String'in içine sadece sesli harfleri (aeiou) yazdırın
  */
 public class Q04_PrintVowelsOfString {
+    public static void main(String[] args) {
 }
