@@ -1,4 +1,7 @@
 package interviewQuestions05;
+
+import java.util.Scanner;
+
 /*
 (ENG) Get String from user and print just vowels(aeiou) inside String on the console.
 
