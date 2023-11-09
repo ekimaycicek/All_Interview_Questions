@@ -21,3 +21,4 @@ public class Q06_CountsOfRepeatingElement {
         int number = 1;
         int count = countRepetitions(sequence, number);
         System.out.println("The number " + number + " is repeated " + count + " times in the sequence.");
+    }
