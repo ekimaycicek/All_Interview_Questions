@@ -8,5 +8,6 @@ package interviewQuestions05;
 public class Q06_CountsOfRepeatingElement {
 
     public static int countRepetitions(int[] sequence, int number) {
+        int count = 0;
 
     }
