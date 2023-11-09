@@ -12,4 +12,4 @@ public class Q06_CountsOfRepeatingElement {
         for (int element : sequence) {
             if (element == number) {
 
-    }
+            }
