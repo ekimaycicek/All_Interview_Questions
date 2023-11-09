@@ -15,3 +15,4 @@ public class Q06_CountsOfRepeatingElement {
             }
             }
         return count;
+    }
