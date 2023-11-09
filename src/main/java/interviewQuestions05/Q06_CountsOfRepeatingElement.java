@@ -16,3 +16,4 @@ public class Q06_CountsOfRepeatingElement {
             }
         return count;
     }
+    public static void main(String[] args) {
