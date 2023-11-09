@@ -19,3 +19,4 @@ public class Q06_CountsOfRepeatingElement {
     public static void main(String[] args) {
         int[] sequence = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5};
         int number = 1;
+        int count = countRepetitions(sequence, number);
