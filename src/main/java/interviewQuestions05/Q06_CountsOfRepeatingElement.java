@@ -6,4 +6,7 @@ package interviewQuestions05;
 (TR)  Belirli bir sayının bir dizide kaç kez tekrarlandığıni bulan Java programını oluşturun.
 */
 public class Q06_CountsOfRepeatingElement {
-}
+
+    public static int countRepetitions(int[] sequence, int number) {
+
+    }
