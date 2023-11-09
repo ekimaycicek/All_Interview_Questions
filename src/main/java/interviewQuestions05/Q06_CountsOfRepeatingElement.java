@@ -10,5 +10,6 @@ public class Q06_CountsOfRepeatingElement {
     public static int countRepetitions(int[] sequence, int number) {
         int count = 0;
         for (int element : sequence) {
+            if (element == number) {
 
     }
