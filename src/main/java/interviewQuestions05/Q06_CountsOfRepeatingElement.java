@@ -11,5 +11,6 @@ public class Q06_CountsOfRepeatingElement {
         int count = 0;
         for (int element : sequence) {
             if (element == number) {
+                count++;
 
             }
