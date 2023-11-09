@@ -14,3 +14,4 @@ public class Q06_CountsOfRepeatingElement {
                 count++;
             }
             }
+        return count;
