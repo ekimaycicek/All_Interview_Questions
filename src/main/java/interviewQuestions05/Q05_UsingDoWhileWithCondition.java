@@ -18,5 +18,6 @@ public class Q05_UsingDoWhileWithCondition {
         }else{
             System.out.println("Lost!");
         }
+        scanner.close();
         }
 }
