@@ -1,4 +1,7 @@
 package interviewQuestions05;
+
+import java.util.Scanner;
+
 /*
 (ENG) Ask user to enter an integer.
       If the integer is less than 100, tell user "Won!"
