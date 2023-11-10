@@ -15,5 +15,5 @@ public class Q05_UsingDoWhileWithCondition {
         int number = scanner.nextInt();
         if (number < 100) {
             System.out.println("Won!");
-
+        }
 }
