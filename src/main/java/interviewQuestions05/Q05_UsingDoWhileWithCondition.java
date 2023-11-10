@@ -9,4 +9,7 @@ package interviewQuestions05;
      Aksi takdirde kullanıcıya "Kayıp!" deyin.
  */
 public class Q05_UsingDoWhileWithCondition {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
 }
