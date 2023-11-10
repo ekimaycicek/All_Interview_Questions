@@ -17,6 +17,6 @@ public class Q05_UsingDoWhileWithCondition {
             System.out.println("Won!");
         }else{
             System.out.println("Lost!");
-
+        }
         }
 }
