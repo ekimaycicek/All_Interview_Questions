@@ -16,4 +16,7 @@ public class Q05_UsingDoWhileWithCondition {
         if (number < 100) {
             System.out.println("Won!");
         }else{
+            System.out.println("Lost!");
+
+        }
 }
