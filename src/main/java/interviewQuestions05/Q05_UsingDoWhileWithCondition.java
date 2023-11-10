@@ -23,5 +23,5 @@ public class Q05_UsingDoWhileWithCondition {
         }
         scanner.close();
         }
-} }
+}
 
