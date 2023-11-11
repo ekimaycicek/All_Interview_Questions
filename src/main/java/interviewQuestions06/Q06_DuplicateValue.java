@@ -8,4 +8,6 @@ package interviewQuestions06;
          */
 
 public class Q06_DuplicateValue {
-}
+    public static Set<Character> findDuplicateChars(String str) {
+
+    }
