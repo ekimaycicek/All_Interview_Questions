@@ -16,6 +16,6 @@ public class Q06_DuplicateValue {
                 duplicateChars.add(ch);
             }else {
                 seenChars.add(ch);
-
+            }
             }
     }
