@@ -13,5 +13,6 @@ public class Q06_DuplicateValue {
         Set<Character> duplicateChars = new HashSet<>();
         for (char ch : str.toCharArray()) {
             if (seenChars.contains(ch)) {
+                duplicateChars.add(ch);
 
     }
