@@ -7,6 +7,7 @@ package interviewQuestions06;
         Output: [a, s]
          */
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class Q06_DuplicateValue {
