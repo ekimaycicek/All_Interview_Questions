@@ -14,5 +14,5 @@ public class Q06_DuplicateValue {
         for (char ch : str.toCharArray()) {
             if (seenChars.contains(ch)) {
                 duplicateChars.add(ch);
-            }
+            }else {
     }
