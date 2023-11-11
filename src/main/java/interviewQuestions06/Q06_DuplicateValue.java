@@ -11,5 +11,6 @@ public class Q06_DuplicateValue {
     public static Set<Character> findDuplicateChars(String str) {
         Set<Character> seenChars = new HashSet<>();
         Set<Character> duplicateChars = new HashSet<>();
+        for (char ch : str.toCharArray()) {
 
     }
