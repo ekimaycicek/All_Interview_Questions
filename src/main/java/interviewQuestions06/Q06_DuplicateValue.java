@@ -18,4 +18,5 @@ public class Q06_DuplicateValue {
                 seenChars.add(ch);
             }
             }
+        return
     }
