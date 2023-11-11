@@ -15,4 +15,7 @@ public class Q06_DuplicateValue {
             if (seenChars.contains(ch)) {
                 duplicateChars.add(ch);
             }else {
+                seenChars.add(ch);
+
+            }
     }
