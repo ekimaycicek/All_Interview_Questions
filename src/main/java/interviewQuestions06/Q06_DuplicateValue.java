@@ -7,6 +7,8 @@ package interviewQuestions06;
         Output: [a, s]
          */
 
+import java.util.Set;
+
 public class Q06_DuplicateValue {
     public static Set<Character> findDuplicateChars(String str) {
         Set<Character> seenChars = new HashSet<>();
