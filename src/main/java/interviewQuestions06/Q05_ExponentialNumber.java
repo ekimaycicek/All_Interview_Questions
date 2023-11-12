@@ -27,4 +27,5 @@ public class Q05_ExponentialNumber {
         ArrayList<Integer> primeNumbers = new ArrayList<>();
         for (int num = base; num <= top; num++) {
             if (isPrime(num)) {
+                primeNumbers.add(num);
 
