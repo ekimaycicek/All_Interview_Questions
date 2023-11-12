@@ -7,4 +7,6 @@ package interviewQuestions06;
 
 // 4, 3 --> 4^3= 4*4*4 = 64
 public class Q05_ExponentialNumber {
-}
+    public static boolean isPrime(int num) {
+
+    }
