@@ -30,4 +30,5 @@ public class Q05_ExponentialNumber {
                 primeNumbers.add(num);
             }
         }
+        System.out.println("Girilen aralıktaki asal sayılar: " + primeNumbers);
 
