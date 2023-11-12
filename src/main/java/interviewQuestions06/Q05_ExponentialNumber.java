@@ -5,6 +5,7 @@ package interviewQuestions06;
 //Write a code that calculates the prime of a number.
 // 2, 3 --> 2^3 = 2*2*2= 8
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // 4, 3 --> 4^3= 4*4*4 = 64
