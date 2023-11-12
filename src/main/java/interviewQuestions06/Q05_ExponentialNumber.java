@@ -16,4 +16,6 @@ public class Q05_ExponentialNumber {
                 return false;
             }
         }
-        }
+        return true;
+
+    }
