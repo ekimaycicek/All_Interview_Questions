@@ -23,4 +23,5 @@ public class Q05_ExponentialNumber {
         System.out.print("İlk sayıyı giriniz: ");
         int base = scanner.nextInt();
         System.out.print("Son sayıyı giriniz: ");
+        int top = scanner.nextInt();
 
