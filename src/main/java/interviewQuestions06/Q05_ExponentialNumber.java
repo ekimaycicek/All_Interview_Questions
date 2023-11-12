@@ -26,4 +26,5 @@ public class Q05_ExponentialNumber {
         int top = scanner.nextInt();
         ArrayList<Integer> primeNumbers = new ArrayList<>();
         for (int num = base; num <= top; num++) {
+            if (isPrime(num)) {
 
