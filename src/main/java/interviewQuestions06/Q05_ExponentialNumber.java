@@ -11,4 +11,6 @@ public class Q05_ExponentialNumber {
         if (num <= 1) {
             return false;
         }
-    }
+        for (int i = 2; i * i <= num; i++) {
+
+        }
