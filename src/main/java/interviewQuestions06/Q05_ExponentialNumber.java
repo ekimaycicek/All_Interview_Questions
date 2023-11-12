@@ -17,5 +17,4 @@ public class Q05_ExponentialNumber {
             }
         }
         return true;
-
     }
