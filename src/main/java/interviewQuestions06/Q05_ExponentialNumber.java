@@ -15,5 +15,5 @@ public class Q05_ExponentialNumber {
             if (num % i == 0) {
                 return false;
             }
-
+        }
         }
