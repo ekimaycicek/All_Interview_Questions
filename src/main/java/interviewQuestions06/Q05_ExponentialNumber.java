@@ -28,4 +28,6 @@ public class Q05_ExponentialNumber {
         for (int num = base; num <= top; num++) {
             if (isPrime(num)) {
                 primeNumbers.add(num);
+            }
+        }
 
