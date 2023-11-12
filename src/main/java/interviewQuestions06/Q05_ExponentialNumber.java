@@ -24,4 +24,5 @@ public class Q05_ExponentialNumber {
         int base = scanner.nextInt();
         System.out.print("Son sayıyı giriniz: ");
         int top = scanner.nextInt();
+        ArrayList<Integer> primeNumbers = new ArrayList<>();
 
