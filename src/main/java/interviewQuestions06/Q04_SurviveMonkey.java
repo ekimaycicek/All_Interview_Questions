@@ -15,5 +15,6 @@ public class Q04_SurviveMonkey {
     boolean monkeyAlive = true;
     do {
         numberOfBananas -= 4;
+        survivalDays++;
     }
 }
