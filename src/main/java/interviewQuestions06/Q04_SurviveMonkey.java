@@ -10,4 +10,5 @@ package interviewQuestions06;
     boolean monkeyAlive = true;
     */
 public class Q04_SurviveMonkey {
+    int numberOfBananas = 165;
 }
