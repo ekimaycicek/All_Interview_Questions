@@ -10,16 +10,21 @@ package interviewQuestions06;
     boolean monkeyAlive = true;
     */
 public class Q04_SurviveMonkey {
+    public static void main(String[] args) {
+
+
     int numberOfBananas = 165;
     int survivalDays = 1;
     boolean monkeyAlive = true;
-    do {
+    do
+
+    {
         numberOfBananas -= 4;
         survivalDays++;
         if (numberOfBananas <= 0) {
             monkeyAlive = false;
         }
-    }while (monkeyAlive);
-    System.out.println("The monkey can survive for " + survivalDays + " days.");
+    } while(monkeyAlive);
+    System.out.println("The monkey can survive for "+survivalDays +" days.");
 
-}
+}}
