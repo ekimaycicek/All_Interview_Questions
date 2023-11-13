@@ -17,5 +17,7 @@ public class Q04_SurviveMonkey {
         numberOfBananas -= 4;
         survivalDays++;
         if (numberOfBananas <= 0) {
+            monkeyAlive = false;
+        }
     }
 }
