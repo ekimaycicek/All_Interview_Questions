@@ -16,5 +16,6 @@ public class Q04_SurviveMonkey {
     do {
         numberOfBananas -= 4;
         survivalDays++;
+        if (numberOfBananas <= 0) {
     }
 }
