@@ -20,4 +20,6 @@ public class Q04_SurviveMonkey {
             monkeyAlive = false;
         }
     }while (monkeyAlive);
+    System.out.println("The monkey can survive for " + survivalDays + " days.");
+
 }
