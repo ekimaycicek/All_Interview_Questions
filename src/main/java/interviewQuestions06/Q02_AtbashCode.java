@@ -29,5 +29,6 @@ public class Q02_AtbashCode {
 
     }
     public static void main(String[] args) {
+        System.out.println(encrypt("hello, world!")); // svor, jnqf!
 
     }
