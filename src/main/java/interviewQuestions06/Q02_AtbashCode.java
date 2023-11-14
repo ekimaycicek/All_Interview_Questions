@@ -25,5 +25,7 @@ public class Q02_AtbashCode {
                 encryptedSentence += letter;
             }
         }
-            }
+        return encryptedSentence;
+
+    }
 }
