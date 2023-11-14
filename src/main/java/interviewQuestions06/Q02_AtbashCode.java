@@ -13,4 +13,6 @@ package interviewQuestions06;
 
  */
 public class Q02_AtbashCode {
+    private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
+
 }
