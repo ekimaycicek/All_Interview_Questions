@@ -15,6 +15,7 @@ package interviewQuestions06;
 public class Q02_AtbashCode {
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
     private static final String REVERSED_ALPHABET = new StringBuilder(ALPHABET).reverse().toString();
+
     public static String encrypt(String sentence) {
         String encryptedSentence = "";
         for (char letter : sentence.toLowerCase().toCharArray()) {
@@ -28,7 +29,9 @@ public class Q02_AtbashCode {
         return encryptedSentence;
 
     }
+
     public static void main(String[] args) {
         System.out.println(encrypt("hello, world!")); // svor, jnqf!
 
     }
+}
