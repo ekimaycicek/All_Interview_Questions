@@ -21,5 +21,5 @@ public class Q02_AtbashCode {
             int index = ALPHABET.indexOf(letter);
             if (index != -1) {
                 encryptedSentence += REVERSED_ALPHABET.charAt(index);
-
+            } else {
 }
