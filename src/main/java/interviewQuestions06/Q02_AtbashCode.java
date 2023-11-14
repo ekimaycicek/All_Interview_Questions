@@ -28,4 +28,6 @@ public class Q02_AtbashCode {
         return encryptedSentence;
 
     }
-}
+    public static void main(String[] args) {
+
+    }
