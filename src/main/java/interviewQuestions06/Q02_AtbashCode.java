@@ -18,5 +18,6 @@ public class Q02_AtbashCode {
     public static String encrypt(String sentence) {
         String encryptedSentence = "";
         for (char letter : sentence.toLowerCase().toCharArray()) {
+            int index = ALPHABET.indexOf(letter);
 
 }
