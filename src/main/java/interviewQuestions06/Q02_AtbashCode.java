@@ -15,5 +15,6 @@ package interviewQuestions06;
 public class Q02_AtbashCode {
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
     private static final String REVERSED_ALPHABET = new StringBuilder(ALPHABET).reverse().toString();
+    public static String encrypt(String sentence) {
 
 }
