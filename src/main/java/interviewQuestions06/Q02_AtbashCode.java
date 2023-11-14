@@ -22,4 +22,7 @@ public class Q02_AtbashCode {
             if (index != -1) {
                 encryptedSentence += REVERSED_ALPHABET.charAt(index);
             } else {
+                encryptedSentence += letter;
+
+            }
 }
