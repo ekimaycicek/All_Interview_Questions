@@ -23,6 +23,7 @@ public class Q02_AtbashCode {
                 encryptedSentence += REVERSED_ALPHABET.charAt(index);
             } else {
                 encryptedSentence += letter;
-
+            }
+        }
             }
 }
