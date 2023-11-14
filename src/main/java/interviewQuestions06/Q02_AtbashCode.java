@@ -20,5 +20,6 @@ public class Q02_AtbashCode {
         for (char letter : sentence.toLowerCase().toCharArray()) {
             int index = ALPHABET.indexOf(letter);
             if (index != -1) {
+                encryptedSentence += REVERSED_ALPHABET.charAt(index);
 
 }
