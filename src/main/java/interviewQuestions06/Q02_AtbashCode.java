@@ -17,5 +17,6 @@ public class Q02_AtbashCode {
     private static final String REVERSED_ALPHABET = new StringBuilder(ALPHABET).reverse().toString();
     public static String encrypt(String sentence) {
         String encryptedSentence = "";
+        for (char letter : sentence.toLowerCase().toCharArray()) {
 
 }
