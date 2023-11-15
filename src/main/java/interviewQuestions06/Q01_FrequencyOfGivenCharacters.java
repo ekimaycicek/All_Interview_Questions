@@ -23,5 +23,6 @@ public class Q01_FrequencyOfGivenCharacters {
                 System.out.print((char) (i + 'A') + " " + frequency[i] + " ");
             }
         }
+
     }
 }
