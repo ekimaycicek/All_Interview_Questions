@@ -2,7 +2,6 @@ package interviewQuestions06;
 /*
 
 (ENG) Write a METHOD that finds and prints the frequency (repetitions) of the letters in a given text.(Interview question)
-
    Test data:
    Input  = AAABBCDD
    Output = A3B2C1D2
