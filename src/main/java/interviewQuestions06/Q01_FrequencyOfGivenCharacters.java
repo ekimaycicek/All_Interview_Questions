@@ -18,7 +18,7 @@ public class Q01_FrequencyOfGivenCharacters {
         }
         for (int i = 0; i < frequency.length; i++) {
             if (frequency[i] > 0) {
-
+                System.out.print((char) (i + 'A') + " " + frequency[i] + " ");
             }
 
     }
