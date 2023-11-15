@@ -16,6 +16,7 @@ public class Q01_FrequencyOfGivenCharacters {
             int index = (int) c - 'A';
             frequency[index]++;
         }
+        for (int i = 0; i < frequency.length; i++) {
 
     }
 }
