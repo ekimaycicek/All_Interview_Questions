@@ -11,6 +11,7 @@ package interviewQuestions06;
 public class Q01_FrequencyOfGivenCharacters {
     public static void main(String[] args) {
         String text = "AAABBCDD";
+        int[] frequency = new int[26];
 
     }
 }
