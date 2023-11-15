@@ -20,7 +20,6 @@ public class Q01_FrequencyOfGivenCharacters {
             if (frequency[i] > 0) {
                 System.out.print((char) (i + 'A') + " " + frequency[i] + " ");
             }
-
         }
     }
 }
