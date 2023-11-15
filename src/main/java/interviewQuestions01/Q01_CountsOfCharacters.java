@@ -15,31 +15,32 @@ import java.util.Scanner;
 public class Q01_CountsOfCharacters {
 
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            Scanner scan = new Scanner(System.in);
-            System.out.print("please enter a word ");
-            String input = scan.nextLine();
+        Scanner scan = new Scanner(System.in);
+        System.out.print("please enter a word ");
 
+        String input = scan.nextLine();
 
-            String conclusion = "";
-            for (int i = 0; i < input.length(); i++) {
-                char ch = input.charAt(i);
+        String conclusion = "";
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
 
-                if (conclusion.indexOf(ch) == -1) {
-                    int counter = 0;
-                    for (int a = i; a < input.length(); a++) {
-                        if (ch == input.charAt(a)) {
-                            counter++;
-                        }
+            if (conclusion.indexOf(ch) == -1) {
+                int counter = 0;
+                for (int a = i; a < input.length(); a++) {
+                    if (ch == input.charAt(a)) {
+                        counter++;
                     }
-                    conclusion += ch + " = " + counter + " " ;
                 }
+                conclusion += ch + " = " + counter + " ";
             }
-
-            System.out.println(conclusion.substring(0, conclusion.length() - 1));
         }
+
+        System.out.println(conclusion.substring(0, conclusion.length() - 1));
     }
+}
+
 
 
 
