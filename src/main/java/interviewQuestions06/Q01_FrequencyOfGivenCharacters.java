@@ -9,4 +9,5 @@ package interviewQuestions06;
    Output = A3B2C1D2
  */
 public class Q01_FrequencyOfGivenCharacters {
+    public static void main(String[] args) {
 }
