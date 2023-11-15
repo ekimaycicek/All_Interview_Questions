@@ -17,6 +17,9 @@ public class Q01_FrequencyOfGivenCharacters {
             frequency[index]++;
         }
         for (int i = 0; i < frequency.length; i++) {
+            if (frequency[i] > 0) {
+
+            }
 
     }
 }
