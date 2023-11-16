@@ -1,4 +1,7 @@
 package interviewQuestions05;
+
+import java.util.Scanner;
+
 /*
 (ENG)  Type java code by using while loop,
        Write a program to count the factors of an integer which is entered by user.
