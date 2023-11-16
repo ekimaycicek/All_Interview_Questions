@@ -20,4 +20,6 @@ public class Q03_CountFactors {
                 count++;
             }
         }
+        System.out.println("Girdiğiniz sayının " + count + " tane çarpanı vardır.");
+
     }
