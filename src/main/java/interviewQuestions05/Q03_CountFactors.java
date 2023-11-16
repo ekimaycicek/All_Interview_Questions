@@ -21,5 +21,5 @@ public class Q03_CountFactors {
             }
         }
         System.out.println("Girdiğiniz sayının " + count + " tane çarpanı vardır.");
-
+    }
     }
