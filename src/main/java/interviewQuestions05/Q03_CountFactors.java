@@ -16,5 +16,6 @@ public class Q03_CountFactors {
         int number = scanner.nextInt();
         int count = 0;
         for (int i = 1; i <= number; i++) {
+            if (number % i == 0) {
 
     }
