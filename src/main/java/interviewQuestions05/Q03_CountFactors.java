@@ -18,5 +18,5 @@ public class Q03_CountFactors {
         for (int i = 1; i <= number; i++) {
             if (number % i == 0) {
                 count++;
-
+            }
     }
