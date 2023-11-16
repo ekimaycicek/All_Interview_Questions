@@ -10,4 +10,6 @@ package interviewQuestions05;
        Factors of 8  = 1, 2, 4, 8 ==> 4
  */
 public class Q03_CountFactors {
-}
+    public static void main(String[] args) {
+
+    }
