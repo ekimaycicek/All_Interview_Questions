@@ -11,5 +11,6 @@ package interviewQuestions05;
  */
 public class Q03_CountFactors {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
     }
