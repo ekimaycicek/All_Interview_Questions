@@ -19,4 +19,5 @@ public class Q03_CountFactors {
             if (number % i == 0) {
                 count++;
             }
+        }
     }
