@@ -15,5 +15,6 @@ package interviewQuestions05;
 public class Q01_UsingDoWhilePrintNumber {
     public static void main(String[] args){
         int i = 0;
+        do {
     }
 }
