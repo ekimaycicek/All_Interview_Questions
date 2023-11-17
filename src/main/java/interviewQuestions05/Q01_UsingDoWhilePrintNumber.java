@@ -17,7 +17,7 @@ public class Q01_UsingDoWhilePrintNumber {
         int i = 0;
         do {
             System.out.println(i);
-
+            i += 5;
         }
     }
 }
