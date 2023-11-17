@@ -13,5 +13,5 @@ package interviewQuestions05;
         For example: 0   5   10  15  20
  */
 public class Q01_UsingDoWhilePrintNumber {
-    public
+    public static
 }
