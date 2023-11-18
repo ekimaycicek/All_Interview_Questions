@@ -40,6 +40,7 @@ public class Q04_TestKeyword {
             System.out.println("Student " + student + " has " + correctAnswers + " correct answers.");
         }
     }
+    public static void main(String[] args) {
 
 }
 
