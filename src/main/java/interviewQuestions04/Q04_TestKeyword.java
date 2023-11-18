@@ -34,6 +34,7 @@ public class Q04_TestKeyword {
             int correctAnswers = 0;
             for (int question = 0; question < answers[student].length; question++) {
                 if (answers[student][question] == keys[question]) {
+                    correctAnswers++;
 
         }
 
