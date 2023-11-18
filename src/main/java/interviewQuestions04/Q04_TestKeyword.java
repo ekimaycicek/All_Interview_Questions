@@ -52,6 +52,7 @@ public class Q04_TestKeyword {
                 {'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}
         };
         char[] keys = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
+        evaluate(answers, keys);
 
 }
 
