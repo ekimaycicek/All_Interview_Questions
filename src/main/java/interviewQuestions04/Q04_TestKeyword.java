@@ -37,6 +37,10 @@ public class Q04_TestKeyword {
                     correctAnswers++;
                 }
             }
+            System.out.println("Student " + student + " has " + correctAnswers + " correct answers.");
         }
+    }
+
+}
 
     }
