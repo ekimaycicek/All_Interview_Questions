@@ -29,4 +29,6 @@ package interviewQuestions04;
     Student 8 has 7 correct answers.
  */
 public class Q04_TestKeyword {
-}
+    public static void evaluate(char[][] answers, char[] keys) {
+
+    }
