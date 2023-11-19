@@ -11,5 +11,6 @@ package interviewQuestions03;
 public class Q05_MultiDimensolArray {
     public static void main(String[] args) {
         int[][] arr = {{7, 12, 97, 23}, {543, 23, 675}, {2}, {2, 33, 6, 3, 7}};
+        int totalElements = 0;
 
     }
