@@ -15,5 +15,6 @@ public class Q05_MultiDimensolArray {
         for (int[] row : arr) {
             totalElements += row.length;
         }
+        System.out.println("Total elements in the array: " + totalElements);
 
     }
