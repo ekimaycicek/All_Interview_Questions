@@ -9,4 +9,6 @@ package interviewQuestions03;
         --> kac tane eleman oldugunu return eden methodu yazdiriniz //cevap : 13 donsun
  */
 public class Q05_MultiDimensolArray {
-}
+    public static void main(String[] args) {
+
+    }
