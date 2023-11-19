@@ -13,5 +13,6 @@ public class Q05_MultiDimensolArray {
         int[][] arr = {{7, 12, 97, 23}, {543, 23, 675}, {2}, {2, 33, 6, 3, 7}};
         int totalElements = 0;
         for (int[] row : arr) {
+            totalElements += row.length;
 
     }
