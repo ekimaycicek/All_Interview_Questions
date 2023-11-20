@@ -15,5 +15,6 @@ public class Q05_ReverseString {
         String str = "Hello, World!";
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
+        String reversedString = sb.toString();
 
     }
