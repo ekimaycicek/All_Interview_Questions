@@ -11,4 +11,6 @@ package interviewQuestions02;
 		3.Yol: Bir method olusturun, ardindan methodu main method dan cagirin.
  */
 public class Q05_ReverseString {
-}
+    public static void main(String[] args) {
+
+    }
