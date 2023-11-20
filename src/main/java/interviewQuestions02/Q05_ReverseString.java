@@ -17,5 +17,6 @@ public class Q05_ReverseString {
         sb.reverse();
         String reversedString = sb.toString();
         System.out.println("Original string: " + str);
+        System.out.println("Reversed string: " + reversedString);
 
     }
