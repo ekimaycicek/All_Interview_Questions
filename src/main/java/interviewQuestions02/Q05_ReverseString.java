@@ -19,5 +19,4 @@ public class Q05_ReverseString {
         System.out.println("Original string: " + str);
         System.out.println("Reversed string: " + reversedString);
 
-
     }
