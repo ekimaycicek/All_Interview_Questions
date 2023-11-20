@@ -12,5 +12,6 @@ package interviewQuestions02;
  */
 public class Q05_ReverseString {
     public static void main(String[] args) {
+        String str = "Hello, World!";
 
     }
