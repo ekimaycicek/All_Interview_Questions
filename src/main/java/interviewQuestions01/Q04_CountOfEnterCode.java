@@ -31,7 +31,7 @@ public class Q04_CountOfEnterCode {
                 girisSayisi++;
             }
             pin = scanner.nextLine();
-
+        }
 
 
         }
