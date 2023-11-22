@@ -23,6 +23,7 @@ public class Q04_CountOfEnterCode {
                 System.out.println("3'ten fazla yanlış giriş yaptınız. Hesabınız bloke edildi.");
                 break;
             }
+            if (pin.equals("1234")) {
 
 
 
