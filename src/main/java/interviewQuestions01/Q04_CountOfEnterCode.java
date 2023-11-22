@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Q04_CountOfEnterCode {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
 
 
