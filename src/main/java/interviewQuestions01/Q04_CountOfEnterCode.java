@@ -27,6 +27,7 @@ public class Q04_CountOfEnterCode {
                 System.out.println("PIN kodu doğru.");
                 break;
             } else {
+                System.out.println("PIN kodu yanlış. Tekrar deneyiniz:");
 
 
        
