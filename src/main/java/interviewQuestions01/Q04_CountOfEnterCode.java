@@ -30,7 +30,9 @@ public class Q04_CountOfEnterCode {
                 System.out.println("PIN kodu yanlış. Tekrar deneyiniz:");
                 girisSayisi++;
             }
+            pin = scanner.nextLine();
 
-       
-    }
+
+
+        }
 }
