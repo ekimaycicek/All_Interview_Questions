@@ -19,6 +19,7 @@ public class Q04_CountOfEnterCode {
         String pin = scanner.nextLine();
         int girisSayisi = 0;
         while (true) {
+            if (girisSayisi > 3) {
 
 
 
