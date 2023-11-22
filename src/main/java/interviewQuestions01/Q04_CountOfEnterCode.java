@@ -20,6 +20,7 @@ public class Q04_CountOfEnterCode {
         int girisSayisi = 0;
         while (true) {
             if (girisSayisi > 3) {
+                System.out.println("3'ten fazla yanlış giriş yaptınız. Hesabınız bloke edildi.");
 
 
 
