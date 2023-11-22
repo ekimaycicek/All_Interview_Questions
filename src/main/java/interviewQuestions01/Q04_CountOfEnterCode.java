@@ -26,7 +26,7 @@ public class Q04_CountOfEnterCode {
             if (pin.equals("1234")) {
                 System.out.println("PIN kodu doğru.");
                 break;
-
+            } else {
 
 
        
