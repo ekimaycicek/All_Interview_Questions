@@ -18,6 +18,7 @@ public class Q04_CountOfEnterCode {
         System.out.println("Lütfen PIN kodunuzu giriniz:");
         String pin = scanner.nextLine();
         int girisSayisi = 0;
+        while (true) {
 
 
 
