@@ -5,5 +5,5 @@ package interviewQuestions06;
 
  */
 public class Q03_OddIndexNumber {
-    public
+    public static
 }
