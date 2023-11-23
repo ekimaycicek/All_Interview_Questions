@@ -7,6 +7,6 @@ package interviewQuestions06;
 public class Q03_OddIndexNumber {
     public static void main (String[] args) {
         String str = "Hello, world!";
-        for(int i =
+        for(int i = 1;
     }
 }
