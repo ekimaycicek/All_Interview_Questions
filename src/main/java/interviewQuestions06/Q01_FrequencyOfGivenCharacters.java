@@ -18,6 +18,7 @@ public class Q01_FrequencyOfGivenCharacters {
 
 
 
+
         for (char c : text.toCharArray()) {
             int index = (int) c - 'A';
             frequency[index]++;
