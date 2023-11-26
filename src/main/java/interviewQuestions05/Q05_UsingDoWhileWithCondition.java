@@ -20,6 +20,7 @@ public class Q05_UsingDoWhileWithCondition {
 
 
 
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter an integer: ");
         int number = scanner.nextInt();
