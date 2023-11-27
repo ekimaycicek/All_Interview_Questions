@@ -23,7 +23,6 @@ public class Q03_CountFactors {
 
 
 
-
         System.out.print("Bir tam sayı giriniz: ");
         int number = scanner.nextInt();
         int count = 0;
