@@ -14,6 +14,7 @@ import java.util.Scanner;
  */
 public class Q03_CountFactors {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir tam sayı giriniz: ");
         int number = scanner.nextInt();
