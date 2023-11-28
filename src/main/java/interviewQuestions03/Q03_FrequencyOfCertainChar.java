@@ -21,7 +21,6 @@ public class Q03_FrequencyOfCertainChar {
 
 
 
-
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a name: ");
         String name = scan.nextLine();
